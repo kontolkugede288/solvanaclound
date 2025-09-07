@@ -1,0 +1,383 @@
+<html lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Solvana Cloud - Minecraft Store
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Press Start 2P', cursive;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col">
+  <!-- Navbar -->
+  <nav class="bg-gray-800 shadow-md">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16 items-center">
+     <a class="flex items-center space-x-2" href="#">
+      <img alt="Logo Solvana Cloud, pixel art style with cloud and Minecraft block" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/21dc7d79-8b41-43a2-6448-00df107b5123.jpg" width="40"/>
+      <span class="text-2xl text-green-500">
+       Solvana Cloud
+      </span>
+     </a>
+     <div class="hidden md:flex space-x-8 font-semibold text-gray-300">
+      <a class="hover:text-green-400 transition" href="#services">
+       Layanan
+      </a>
+      <a class="hover:text-green-400 transition" href="#products">
+       Produk
+      </a>
+      <a class="hover:text-green-400 transition" href="#about">
+       Tentang Kami
+      </a>
+      <a class="hover:text-green-400 transition" href="#contact">
+       Kontak
+      </a>
+     </div>
+     <div class="md:hidden">
+      <button class="text-gray-300 focus:outline-none" id="menu-btn">
+       <i class="fas fa-bars fa-lg">
+       </i>
+      </button>
+     </div>
+    </div>
+   </div>
+   <div class="hidden md:hidden bg-gray-700 px-4 pt-2 pb-4 space-y-1 font-semibold text-gray-300" id="mobile-menu">
+    <a class="block hover:text-green-400 transition" href="#services">
+     Layanan
+    </a>
+    <a class="block hover:text-green-400 transition" href="#products">
+     Produk
+    </a>
+    <a class="block hover:text-green-400 transition" href="#about">
+     Tentang Kami
+    </a>
+    <a class="block hover:text-green-400 transition" href="#contact">
+     Kontak
+    </a>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-b from-green-700 to-green-900 text-center py-20 px-4">
+   <h1 class="text-4xl sm:text-5xl font-bold mb-4 text-yellow-400 drop-shadow-lg">
+    Selamat Datang di Solvana Cloud
+   </h1>
+   <p class="max-w-3xl mx-auto text-lg sm:text-xl text-gray-200 mb-8">
+    Store Minecraft terpercaya yang menyediakan jasa setup, pembuatan logo, plugin premium, domain, dan akun premium Minecraft.
+   </p>
+   <a class="inline-block bg-yellow-400 text-gray-900 font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-yellow-300 transition" href="#products">
+    Jelajahi Produk Kami
+   </a>
+   <div class="mt-10 flex justify-center space-x-6">
+    <img alt="Minecraft grass block pixel art, bright green grass on dirt block" class="w-24 h-24 sm:w-36 sm:h-36 rounded-lg shadow-lg" height="150" src="https://storage.googleapis.com/a1aa/image/fbf067c9-1c50-4a33-c412-870c36b563c4.jpg" width="150"/>
+    <img alt="Minecraft diamond sword pixel art with blue and cyan colors" class="w-24 h-24 sm:w-36 sm:h-36 rounded-lg shadow-lg" height="150" src="https://storage.googleapis.com/a1aa/image/397c00b3-fadf-4ada-3b4e-368da193e2f0.jpg" width="150"/>
+    <img alt="Minecraft style cloud logo pixel art with white and light blue colors" class="w-24 h-24 sm:w-36 sm:h-36 rounded-lg shadow-lg" height="150" src="https://storage.googleapis.com/a1aa/image/f44b6b48-e6fe-431b-9748-357a80d2124c.jpg" width="150"/>
+   </div>
+  </header>
+  <!-- Services Section -->
+  <section class="max-w-7xl mx-auto px-6 py-16" id="services">
+   <h2 class="text-3xl font-bold text-green-400 text-center mb-12">
+    Layanan Kami
+   </h2>
+   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div class="bg-gray-800 rounded-lg p-6 flex flex-col items-center text-center shadow-lg hover:shadow-green-500/50 transition">
+     <img alt="Pixel art of Minecraft server setup with computer and blocks" class="mb-4 w-24 h-24" height="100" src="https://storage.googleapis.com/a1aa/image/78b99e7e-fccc-49c9-9738-f57d5f70fa10.jpg" width="100"/>
+     <h3 class="text-xl font-semibold mb-2 text-yellow-400">
+      Jasa Setup Server
+     </h3>
+     <p class="text-gray-300">
+      Kami membantu setup server Minecraft Anda dengan konfigurasi terbaik dan stabil.
+     </p>
+     <p class="mt-2 text-green-400 font-semibold">
+      Harga mulai dari Rp 50.000
+     </p>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 flex flex-col items-center text-center shadow-lg hover:shadow-green-500/50 transition">
+     <img alt="Pixel art of Minecraft style logo design with paintbrush and blocks" class="mb-4 w-24 h-24" height="100" src="https://storage.googleapis.com/a1aa/image/8ad2c98b-64a0-4108-5c0d-153b90047704.jpg" width="100"/>
+     <h3 class="text-xl font-semibold mb-2 text-yellow-400">
+      Jasa Membuat Logo
+     </h3>
+     <p class="text-gray-300">
+      Desain logo Minecraft unik dan keren untuk server atau komunitas Anda.
+     </p>
+     <p class="mt-2 text-green-400 font-semibold">
+      Harga mulai dari Rp 20.000
+     </p>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 flex flex-col items-center text-center shadow-lg hover:shadow-green-500/50 transition">
+     <img alt="Pixel art of Minecraft plugin icon with gear and diamond" class="mb-4 w-24 h-24" height="100" src="https://storage.googleapis.com/a1aa/image/25ac9a02-6743-498d-5988-8e32b8fa9b89.jpg" width="100"/>
+     <h3 class="text-xl font-semibold mb-2 text-yellow-400">
+      Plugins Premium
+     </h3>
+     <p class="text-gray-300">
+      Plugins premium berkualitas tinggi untuk meningkatkan pengalaman bermain Minecraft Anda.
+     </p>
+     <p class="mt-2 text-green-400 font-semibold">
+      Harga mulai dari Rp 75.000
+     </p>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 flex flex-col items-center text-center shadow-lg hover:shadow-green-500/50 transition">
+     <img alt="Pixel art of Minecraft premium account and domain icon with globe and key" class="mb-4 w-24 h-24" height="100" src="https://storage.googleapis.com/a1aa/image/e372abbd-19a5-4b6e-9cdd-042563025c23.jpg" width="100"/>
+     <h3 class="text-xl font-semibold mb-2 text-yellow-400">
+      Domain &amp; Akun Premium
+     </h3>
+     <p class="text-gray-300">
+      Jual beli domain Minecraft dan akun premium terpercaya dan aman.
+     </p>
+     <p class="mt-2 text-green-400 font-semibold">
+      Domain mulai dari Rp 20.000<br/>
+      Akun Premium mulai dari Rp 120.000
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Products Section -->
+  <section class="bg-gray-800 py-16 px-6" id="products">
+   <div class="max-w-7xl mx-auto">
+    <h2 class="text-3xl font-bold text-green-400 text-center mb-12">
+     Produk Kami
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+     <!-- Product 1: Setup Service -->
+     <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden flex flex-col">
+      <img alt="Minecraft server setup service pixel art with computer and blocks" class="w-full h-40 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/7b391d62-3ac3-4442-0150-109e8a9034d8.jpg" width="300"/>
+      <div class="p-4 flex flex-col flex-grow">
+       <h3 class="text-yellow-400 font-bold text-lg mb-2">
+        Jasa Setup Server
+       </h3>
+       <p class="text-gray-300 flex-grow">
+        Setup server Minecraft dengan konfigurasi terbaik, stabil, dan cepat.
+       </p>
+       <div class="mt-4">
+        <span class="text-green-400 font-semibold">
+         Mulai dari Rp 50.000
+        </span>
+       </div>
+       <button class="mt-4 bg-yellow-400 text-gray-900 font-bold py-2 rounded hover:bg-yellow-300 transition">
+        Pesan Sekarang
+       </button>
+      </div>
+     </div>
+     <!-- Product 2: Logo Design -->
+     <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden flex flex-col">
+      <img alt="Minecraft style logo design pixel art with paintbrush and blocks" class="w-full h-40 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/6ba52c9b-34da-46f8-e199-38c013947395.jpg" width="300"/>
+      <div class="p-4 flex flex-col flex-grow">
+       <h3 class="text-yellow-400 font-bold text-lg mb-2">
+        Jasa Membuat Logo
+       </h3>
+       <p class="text-gray-300 flex-grow">
+        Logo Minecraft unik dan keren untuk server, komunitas, atau brand Anda.
+       </p>
+       <div class="mt-4">
+        <span class="text-green-400 font-semibold">
+         Mulai dari Rp 20.000
+        </span>
+       </div>
+       <button class="mt-4 bg-yellow-400 text-gray-900 font-bold py-2 rounded hover:bg-yellow-300 transition">
+        Pesan Sekarang
+       </button>
+      </div>
+     </div>
+     <!-- Product 3: Premium Plugins -->
+     <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden flex flex-col">
+      <img alt="Minecraft premium plugins pixel art with gear and diamond" class="w-full h-40 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/a301a5ac-f23b-44f7-ebed-4fe802d9a3a3.jpg" width="300"/>
+      <div class="p-4 flex flex-col flex-grow">
+       <h3 class="text-yellow-400 font-bold text-lg mb-2">
+        Plugins Premium
+       </h3>
+       <p class="text-gray-300 flex-grow">
+        Plugins premium berkualitas tinggi untuk server Minecraft Anda.
+       </p>
+       <div class="mt-4">
+        <span class="text-green-400 font-semibold">
+         Mulai dari Rp 75.000
+        </span>
+       </div>
+       <button class="mt-4 bg-yellow-400 text-gray-900 font-bold py-2 rounded hover:bg-yellow-300 transition">
+        Beli Sekarang
+       </button>
+      </div>
+     </div>
+     <!-- Product 4: Domain Minecraft -->
+     <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden flex flex-col">
+      <img alt="Minecraft domain pixel art with globe and pixel blocks" class="w-full h-40 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/d4bf0835-2735-45fa-cdb8-fc6e84a3e20a.jpg" width="300"/>
+      <div class="p-4 flex flex-col flex-grow">
+       <h3 class="text-yellow-400 font-bold text-lg mb-2">
+        Domain Minecraft
+       </h3>
+       <p class="text-gray-300 flex-grow">
+        Domain Minecraft premium untuk server Anda agar mudah diakses.
+       </p>
+       <div class="mt-4">
+        <span class="text-green-400 font-semibold">
+         Mulai dari Rp 20.000
+        </span>
+       </div>
+       <button class="mt-4 bg-yellow-400 text-gray-900 font-bold py-2 rounded hover:bg-yellow-300 transition">
+        Beli Sekarang
+       </button>
+      </div>
+     </div>
+     <!-- Product 5: Akun Premium Minecraft -->
+     <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden flex flex-col">
+      <img alt="Minecraft premium account pixel art with player skin and diamond sword" class="w-full h-40 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/f189bc62-82fe-4e6a-84cf-2ae217cb0f66.jpg" width="300"/>
+      <div class="p-4 flex flex-col flex-grow">
+       <h3 class="text-yellow-400 font-bold text-lg mb-2">
+        Akun Premium Minecraft
+       </h3>
+       <p class="text-gray-300 flex-grow">
+        Akun Minecraft premium asli dan aman untuk pengalaman bermain terbaik.
+       </p>
+       <div class="mt-4">
+        <span class="text-green-400 font-semibold">
+         Mulai dari Rp 120.000
+        </span>
+       </div>
+       <button class="mt-4 bg-yellow-400 text-gray-900 font-bold py-2 rounded hover:bg-yellow-300 transition">
+        Beli Sekarang
+       </button>
+      </div>
+     </div>
+     <!-- Product 6: Skin Custom -->
+     <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden flex flex-col">
+      <img alt="Minecraft custom skin pixel art with colorful character wearing armor" class="w-full h-40 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/3f7a1a2e-1a2b-4c3d-9f4e-5a6b7c8d9e0f.jpg" width="300"/>
+      <div class="p-4 flex flex-col flex-grow">
+       <h3 class="text-yellow-400 font-bold text-lg mb-2">
+        Skin Custom Minecraft
+       </h3>
+       <p class="text-gray-300 flex-grow">
+        Skin Minecraft custom sesuai keinginan Anda, unik dan keren.
+       </p>
+       <div class="mt-4">
+        <span class="text-green-400 font-semibold">
+         Mulai dari Rp 15.000 - Rp 35.000
+        </span>
+       </div>
+       <button class="mt-4 bg-yellow-400 text-gray-900 font-bold py-2 rounded hover:bg-yellow-300 transition">
+        Pesan Sekarang
+       </button>
+      </div>
+     </div>
+     <!-- Product 7: Skin Ready -->
+     <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden flex flex-col">
+      <img alt="Minecraft ready skin pixel art with character wearing helmet and cape" class="w-full h-40 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b.jpg" width="300"/>
+      <div class="p-4 flex flex-col flex-grow">
+       <h3 class="text-yellow-400 font-bold text-lg mb-2">
+        Skin Ready Minecraft
+       </h3>
+       <p class="text-gray-300 flex-grow">
+        Skin Minecraft siap pakai dengan desain menarik dan populer.
+       </p>
+       <div class="mt-4">
+        <span class="text-green-400 font-semibold">
+         Mulai dari Rp 15.000 - Rp 35.000
+        </span>
+       </div>
+       <button class="mt-4 bg-yellow-400 text-gray-900 font-bold py-2 rounded hover:bg-yellow-300 transition">
+        Beli Sekarang
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- About Section -->
+  <section class="max-w-7xl mx-auto px-6 py-16" id="about">
+   <h2 class="text-3xl font-bold text-green-400 text-center mb-12">
+    Tentang Solvana Cloud
+   </h2>
+   <div class="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
+    <img alt="Team of Minecraft pixel art characters working together with cloud and blocks background" class="rounded-lg shadow-lg w-full md:w-1/2 mb-8 md:mb-0" height="300" src="https://storage.googleapis.com/a1aa/image/1f3aa9c1-2312-43fa-4a6d-96126dd481ae.jpg" width="400"/>
+    <div class="text-gray-300 max-w-xl">
+     <p class="mb-4">
+      Solvana Cloud adalah store Minecraft yang berfokus menyediakan layanan dan produk berkualitas tinggi untuk komunitas Minecraft Indonesia. Kami berdedikasi membantu Anda membangun server impian, membuat logo keren, menyediakan plugin premium, serta menjual domain dan akun Minecraft premium yang terpercaya.
+     </p>
+     <p class="mb-4">
+      Dengan pengalaman dan passion di dunia Minecraft, kami memastikan setiap produk dan layanan yang kami tawarkan memenuhi standar tertinggi agar Anda dapat menikmati pengalaman bermain yang maksimal.
+     </p>
+     <p>
+      Bergabunglah bersama ribuan pelanggan puas yang telah mempercayakan kebutuhan Minecraft mereka kepada Solvana Cloud.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="bg-gray-800 py-16 px-6" id="contact">
+   <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-green-400 mb-8">
+     Hubungi Kami
+    </h2>
+    <p class="text-gray-300 mb-4">
+     Punya pertanyaan atau ingin memesan layanan? Hubungi kami melalui form di bawah ini atau melalui media sosial kami.
+    </p>
+    <p class="text-yellow-400 font-bold mb-8 text-lg">
+     Nomor Hubungi: <a class="underline hover:text-green-400" href="tel:081377344785">0813-7734-4785</a> jika ingin membeli atau bertanya!
+    </p>
+    <form action="#" class="bg-gray-900 rounded-lg p-8 shadow-lg max-w-xl mx-auto text-left" method="POST">
+     <div class="mb-6">
+      <label class="block text-yellow-400 font-semibold mb-2" for="name">
+       Nama
+      </label>
+      <input class="w-full px-4 py-2 rounded bg-gray-700 text-gray-100 focus:outline-none focus:ring-2 focus:ring-green-400" id="name" name="name" placeholder="Masukkan nama Anda" required="" type="text"/>
+     </div>
+     <div class="mb-6">
+      <label class="block text-yellow-400 font-semibold mb-2" for="email">
+       Email
+      </label>
+      <input class="w-full px-4 py-2 rounded bg-gray-700 text-gray-100 focus:outline-none focus:ring-2 focus:ring-green-400" id="email" name="email" placeholder="Masukkan email Anda" required="" type="email"/>
+     </div>
+     <div class="mb-6">
+      <label class="block text-yellow-400 font-semibold mb-2" for="message">
+       Pesan
+      </label>
+      <textarea class="w-full px-4 py-2 rounded bg-gray-700 text-gray-100 focus:outline-none focus:ring-2 focus:ring-green-400" id="message" name="message" placeholder="Tulis pesan Anda di sini" required="" rows="5"></textarea>
+     </div>
+     <button class="w-full bg-green-500 hover:bg-green-600 text-gray-900 font-bold py-3 rounded transition" type="submit">
+      Kirim Pesan
+     </button>
+    </form>
+    <div class="mt-12 flex justify-center space-x-8 text-gray-300 text-2xl">
+     <a aria-label="Facebook" href="https://facebook.com/solvanacloud" rel="noopener" target="_blank">
+      <i class="fab fa-facebook-square hover:text-green-400 transition">
+      </i>
+     </a>
+     <a aria-label="Twitter" href="https://twitter.com/solvanacloud" rel="noopener" target="_blank">
+      <i class="fab fa-twitter-square hover:text-green-400 transition">
+      </i>
+     </a>
+     <a aria-label="Instagram" href="https://instagram.com/solvanacloud" rel="noopener" target="_blank">
+      <i class="fab fa-instagram-square hover:text-green-400 transition">
+      </i>
+     </a>
+     <a aria-label="Email" href="mailto:contact@solvanacloud.com">
+      <i class="fas fa-envelope-square hover:text-green-400 transition">
+      </i>
+     </a>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-500 text-center py-6 mt-auto">
+   <p>
+    © 2024 Solvana Cloud. Semua hak cipta dilindungi.
+   </p>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
